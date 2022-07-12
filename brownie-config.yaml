@@ -1,0 +1,13 @@
+dependencies:
+ - OpenZeppelin/openzeppelin-contracts@4.2.0
+compiler:
+ solc:
+  remappings:
+    - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0'
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+networks:
+  rinkeby:
+    eth_usd_price_feed: '0x2e25B53AFe79E69eAE06FB8D1433144f1D869c88'
+    verify: True
