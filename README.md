@@ -1,2 +1,2 @@
 # EASY ERC20
-Code which creates ERC20 token easily
+Create ERC20 token easily
